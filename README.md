@@ -14,3 +14,7 @@ Por último dentro de la base de datos le añadiremos unos permisos al usuario.
 GRANT ALL ON bbdd.* to 'usuario'@'localhost';
 
 Y ya después de este paso salimos de la base de datos con el "exit"
+
+Lo que haremos ahora desde la terminal, probaremos y comprovaremos si un usuario sin permisos/privilegios se puede connectar introduciendo nuestra contraseña. 
+mysql -u usuario -p
+![Captura desde 2024-10-30 12-59-12](https://github.com/user-attachments/assets/3f1b3467-3f80-4710-bcc4-8bd159013a27)
