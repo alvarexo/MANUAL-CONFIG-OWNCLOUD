@@ -12,4 +12,5 @@ CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 Por último dentro de la base de datos le añadiremos unos permisos al usuario.
 GRANT ALL ON bbdd.* to 'usuario'@'localhost';
+
 Y ya después de este paso salimos de la base de datos con el "exit"
