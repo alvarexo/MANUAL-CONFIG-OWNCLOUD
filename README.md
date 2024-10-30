@@ -9,6 +9,7 @@ Cuando ya estamos dentro de la consola, crearemos una base de datos con el nombr
 Seguidamente, haremos la creación de un usuario para acceder a la base de datos.
 CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ![Captura desde 2024-10-30 12-47-36](https://github.com/user-attachments/assets/28a94ce1-9455-4c85-b944-caa21b5e9847)
-Por úñtimo dentro de la base de datos le añadiremos unos permisos al usuario.
+
+Por último dentro de la base de datos le añadiremos unos permisos al usuario.
 GRANT ALL ON bbdd.* to 'usuario'@'localhost';
 Y ya después de este paso salimos de la base de datos con el "exit"
